@@ -1,0 +1,56 @@
+* {
+    font-family: Helventica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.breadcrumb {
+    position: fixed;
+    max-height: 69px;
+    border-bottom: 1px solid seashell;
+
+}
+
+#teacozy {
+    font-size: 50px;
+}
+.breadcrumb ul{
+    text-decoration: underline;
+}
+
+.mission {
+    max-height: 700px;
+    max-width: 1200px;
+    display: none;
+    background-image: url("/Resources\images\img-mission-background.jpg");
+
+}
+
+.featuredtea {
+    display: flex;
+    max-width: 1000px;
+    flex-flow: column wrap;
+
+}
+
+.featuredtea .teaimages{
+    max-width: 300px;
+    max-height: 200px;
+    flex-flow: row wrap;
+}
+
+.locations {
+    display: flex;
+    background-image: url("/Resources\images\img-locations-background.jpg");
+}
+
+.contact {
+
+}
+
+footer {
+
+}
